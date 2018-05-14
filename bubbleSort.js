@@ -1,13 +1,13 @@
 // BubbleSort implemented with Javascript
-for(var i = 0; i < data.length; i++){
-  for(var j = 1; j < data.length - i; j++){
-    if(data[i] < data[j]{
-      var temp = data[i];
-      data[i] = data[j];
-      data[j] = temp;
-      }
-   }
+function bubbleSort(input){	
+	for(var i = 0; i < data.length - 1; i++){
+		for(var j = 0; j < data.length - 1 - i; j++){
+			if(data[j + 1] <= data[j]){
+				var temp = data[j];
+				data[j] = data[j + 1];
+				data[j + 1] = temp;
+			}
+		}
+	}
 };
-return data;
 
-// temp file, may be errors
