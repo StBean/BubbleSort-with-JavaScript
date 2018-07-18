@@ -9,5 +9,6 @@ function bubbleSort(data){
       }
     }
   }
+  return data;
 };
 
